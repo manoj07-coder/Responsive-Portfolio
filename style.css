@@ -577,7 +577,7 @@ img {
   justify-self: center;
 }
 
-.portfolio_item {
+.portfolio-data {
   width: calc(33.33% - 10px); /* Adjust the width as needed with appropriate margins */
   margin-bottom: 20px; /* Optional margin between items */
 }
@@ -863,10 +863,16 @@ body.dark-theme {
     justify-content: center;
   }
 
-  .swiper-wrapper{
+ .portfolio_data {
+  max-width: 50%;
+ }
+ .portfolio_img {
+  max-width: 50%;
+ }
+  .swiper-slide{
     grid-template-columns: repeat(2,1fr) !important;
   }
-  
+
 }
 
 @media screen and (min-width: 767px) {
