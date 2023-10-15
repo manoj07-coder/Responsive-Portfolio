@@ -73,7 +73,7 @@ tabs.forEach(tab => {
 // ================== Portfolio Swiper =================
 
 
-    let swiper = new Swiper(".mySwiper", {
+    let swiper = new Swiper(".swiper-container", {
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {
