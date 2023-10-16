@@ -254,7 +254,7 @@ img {
 }
 
 .home_blob-img {
-  width: 200px;
+  width: 350px;
 }
 
 .home_data {
@@ -964,7 +964,8 @@ body.dark-theme {
   }
 
   .about_img {
-    width: 350px;
+    width: 300px;
+    height: 300px;
   }
   .about_description {
     text-align: initial;
