@@ -148,7 +148,7 @@ const selectedTheme = localStorage.getItem('selected-theme')
 const selectedIcon = localStorage.getItem('selected-icon')
 
 const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light';
-const getCurrentIcon = () => document.body.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun';
+const getCurrentIcon = () => document.body.classList.contains(iconTheme) ? 'uil-sun' : 'uil-moon';
 
 if(selectedTheme){
     document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
